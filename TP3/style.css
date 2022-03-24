@@ -1,0 +1,49 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+ body{
+    background-image: url(../Images/plan.jpg);
+}
+#containerImage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+} 
+#carousel button{
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#carousel button:hover,
+#carousel button:focus{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#carousel button:focus{
+    outline: 1px solid black;
+}
+#carousel button.precedent{
+    left: 1rem;
+}
+#carousel button.suivant{
+    right: 1rem;
+}
+img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+img{
+    padding: 5rem;
+    width: 40vw;
+}

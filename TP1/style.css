@@ -1,0 +1,145 @@
+:root{
+    --modal-duration: 1s;
+    --color-one:rgb(77, 136, 77);
+    --color-two: rgb(243, 45, 45);
+    --color-tree: rgb(252, 252, 56);
+    --color-four:rgb(6, 108, 167);
+}
+body{
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+
+#container-tp{
+    display: grid;
+    justify-content:center; 
+    align-items: center;
+    height: 50vh;
+    width: 80vw;    
+}
+
+.contenue{
+    margin: 5em;   
+    font-weight: bold;
+}
+
+.input{
+    width: 300px;
+    height: 150px; 
+    border-radius: 10px;  
+    transition: all 2s;
+}
+.create{
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.contenue button{
+    margin-right: 5px;
+    border-radius: 15px;
+    height: 60px;
+    font-family: 'Ubuntu';
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.click1{
+    background-color: var(--color-one);
+}
+.click2{
+    background-color: var(--color-two);
+}
+.click3{
+    background-color: var(--color-tree);
+}
+.click4{
+    background-color: var(--color-four);
+}
+
+
+
+/* Animation methode */
+/* .fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInUp {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+
+autre methode
+  .bounceOut {
+  -webkit-animation-name: bounceOut;
+  animation-name: bounceOut;
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes bounceOut {
+  20% {
+  -webkit-transform: scale3d(.9, .9, .9);
+  transform: scale3d(.9, .9, .9);
+  }
+  50%, 55% {
+  opacity: 1;
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+  }
+  100% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  }
+  @keyframes bounceOut {
+  20% {
+  -webkit-transform: scale3d(.9, .9, .9);
+  transform: scale3d(.9, .9, .9);
+  }
+  50%, 55% {
+  opacity: 1;
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  transform: scale3d(1.1, 1.1, 1.1);
+  }
+  100% {
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
+  }
+  } 
+
+ */
